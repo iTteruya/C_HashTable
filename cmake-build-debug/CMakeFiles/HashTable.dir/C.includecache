@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/ClionProjects/HashTable/hashtable_entry.h
+
+C:/ClionProjects/HashTable/hashtable_struct.h
+hashtable_entry.h
+C:/ClionProjects/HashTable/hashtable_entry.h
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+
+C:/ClionProjects/HashTable/hashtable_utils.c
+hashtable_utils.h
+C:/ClionProjects/HashTable/hashtable_utils.h
+
+C:/ClionProjects/HashTable/hashtable_utils.h
+hashtable_struct.h
+C:/ClionProjects/HashTable/hashtable_struct.h
+stdio.h
+-
+
