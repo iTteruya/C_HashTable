@@ -3,7 +3,7 @@
 struct HashTable *createHashTable(){
     struct HashTable *table = (struct HashTable *) malloc(sizeof(*table));
     if (table == NULL) {
-        printf("Error #1: Memory allocation failure while creating new hash map");
+        printf("Error #1: Memory allocation failure while creating new hash table");
         exit(1);
     }
 
